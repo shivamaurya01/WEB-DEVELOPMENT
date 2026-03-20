@@ -1,4 +1,4 @@
-🌐 Web Development Practice
+🌐 WEB DEVELOPMENT PRACTICE
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?size=25&color=00F7FF&center=true&vCenter=true&width=500&lines=Welcome+to+my+Web+Dev+Journey!;Learning+HTML+CSS+JS;Building+Projects+Everyday;Consistency+%3D+Success+🚀" /> </p>
 👨‍💻 About Me
 
@@ -9,8 +9,10 @@ Hi, I'm Shiva Maurya 👋
 
 🛠️ Tech Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" /> </p>
+
 📂 Repository Structure
 Web-Development-Practice/
+
 │
 ├── 📁 HTML/
 ├── 📁 CSS/
@@ -18,7 +20,7 @@ Web-Development-Practice/
 ├── 📁 Projects/
 └── 📁 Mini-Projects/
 📊 Progress Tracker
-<p align="center"> <img src="https://github-readme-progress-bar.vercel.app/api?percent=60&theme=blue" /> </p>
+<p align="center"> <img src="https://github-readme-progress-bar.vercel.app/api?percent=60&theme=blue"/> </p>
 
 ✅ HTML Basics
 
