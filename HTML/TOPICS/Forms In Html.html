@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form In Html</title>
+</head>
+<body>
+    
+    <form action="/server">
+    <div>
+        <label>
+            Username
+            <input type="text" placeholder="Enter Username">
+        </label>
+    </div>
+    <div>
+        <label>
+        Password
+        <input type="password" placeholder="Enter YourPassword" name="password">
+        </label>
+    </div>
+    <div>
+        <label for="Number">Number</label>
+        <input type="number" placeholder="Enter Number" id="Number">
+    </div>
+    <div>
+        <label for="age">Enter Your Age</label>
+        <input type="number" placeholder="Enter Age" id="age">
+    </div>
+<!--Label classical approach-->
+        <label for="Username">Enter your name</label>
+        <input type="text" id="Username" placeholder="Name" name="user">
+    <br>
+<!-- Button-->
+    <button>Hello</button>
+    <button type="submit">Submit</button>
+    <button type="reset"> refresh</button>
+    <button type="button">do something</button>
+
+<!--Button Using Input-->
+    <input type="button" value="click me">
+    <input type="submit" value="Done">
+
+<!--Name Attribute-->
+
+
+
+<hr>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+<!-- Check BOX-->
+    <form action="server">
+        <div>
+            <h3>Choose your subject</h3>
+        <input type="checkbox" name="subject"   id="math" value="math">
+        <label for="math"> Math</label> 
+        <input type="checkbox" name="subject"   id="English" value="eng" >
+        <label for="English"> English</label> 
+        <input type="checkbox" name="subject"   id="Physics" value="phy" >
+        <label for="Physics">Physics</label> 
+         <input type="checkbox" name="subject"   id="Biology" value="Bio" >
+        <label for="Biology">Biology</label> 
+        
+
+        </div> 
+
+        <button>Submit</button>
+
+    </form>
+
+<!--Radio Button-->
+<form action="server">
+    <div>
+    <input type="radio" id="apple" name="fruit" value="apple"> 
+    <label for="apple">apple</label>
+    <input type="radio" id="mango" name="fruit" value="mango">
+    <label for="mango">mango</label>
+    <input type="radio" id="banana" name="fruit" value="banana">
+    <label for="banana">banana</label>
+    <input type="radio" id="grapes" name="fruit" value="grapes">
+    <label for="grapes">grapes</label>
+    </div>
+    <button>Submit</button>
+</form>
+
+
+<!--Dropdown-->
+<form action="server">
+
+    <div>
+        Choose Your Profession
+        <select name="profession" id="profession">
+             <option>Select Youor Option</option>
+            <option value="stu" selected> Student</option>
+            <option value="dev">Developer</option>
+
+
+
+        </select>
+    </div>
+    <button type="submit">submit</button>
+
+</form>
+
+<!-- Range Input-->
+ <form server>
+    <div>
+        <label for="vol">Select your Volume </label>
+        <input type="range" id="vol" min="0" max="100" name="vol" step="20" value="20">
+    </div>
+    <button>Submit</button>
+</form>
+
+
+<!--TExt Area-->
+
+    <form server>
+        <div>
+            <label for="feedback">Enter Your Feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="Write your feedback"></textarea>
+            
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

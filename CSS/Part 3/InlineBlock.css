@@ -1,0 +1,42 @@
+span{
+    display:block;
+    background-color: olive ;
+}
+h1{
+   
+    background-color: brown;
+    border: 2px solid black;
+    width:33%;
+
+}
+div{
+    /* height:200px;
+    width:200px;
+    background-color: chartreuse;
+    border:2px solid black;
+    margin:5px; */ */
+
+   /* Inline block which is used to arrage all the property of the css in the inline */
+
+    display:inline-block;
+
+}
+
+
+#third{
+    display:none;
+}
+#outer{
+    height:400px;
+    width:400px;
+    background-color: cornflowerblue;
+    margin: 50px;
+    padding: 100px;
+}
+#inner{
+    height:10%;
+    width:10%;
+    background-color: pink;
+    padding:50%;
+
+}

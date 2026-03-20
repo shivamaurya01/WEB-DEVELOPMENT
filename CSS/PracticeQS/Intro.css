@@ -1,0 +1,23 @@
+/* h2{
+    color: orange;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+} */
+ h1{
+
+    font-family: League spartan;
+    color:#ffa511;
+    font-size:55px;
+    font-weight:900;
+    text-align:center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: double underline rgb(14, 146, 217);
+    text-transform: uppercase;
+ }

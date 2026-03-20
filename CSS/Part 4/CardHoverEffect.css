@@ -1,0 +1,30 @@
+.card{
+    width:200px;
+    height:200px;
+    border:2px solid black; 
+    display: inline-block;
+    margin: 10px;
+    border-radius:5px; 
+    box-shadow: 0px 5px 10px black;
+    transition: all 1s ease-in-out;
+}
+img{
+    width:200px;
+    height:115px;
+    border-radius: 5px;
+
+}
+/* #male{
+    width:200px;
+    height:115px;
+}
+#female{
+    height:115px;
+    width:200px;
+} */
+.desc{
+    margin-left: 10px;
+}
+.card:hover{
+    box-shadow:0px 8px 20px goldenrod;
+}

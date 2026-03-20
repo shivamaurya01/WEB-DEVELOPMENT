@@ -1,0 +1,36 @@
+#container{
+    height:400px;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    /* align-content: baseline; */
+    /* align-content: center; */
+    align-content: flex-start;
+}
+#red{
+    /* flex-basis: 150px; */
+    /* flex-grow: 3; */
+    /* flex-shrink:3 ; */
+    flex: 2 2 100px;
+}
+#white{
+    align-self: flex-center;
+    /* flex-basis: 250px; */
+    /* flex-grow: 1; */
+    /* max-width: 20px; */
+    flex-shrink: 1;
+    flex: 2 2 100px;
+}
+#container div{
+    height: 150px;
+    width: 50px;
+
+
+}
+h1{
+    text-align: center;
+}

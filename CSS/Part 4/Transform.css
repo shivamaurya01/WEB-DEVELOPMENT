@@ -1,0 +1,36 @@
+section{
+    margin-top:100px;
+}
+div{
+    width:200px;
+    height:50px;
+    text-align:center;
+    background-color:#4F345A;
+    border:2px solid black;
+    margin:10px auto;
+}
+div:nth-of-type(2n){
+    background-color:#C9F299;
+}
+div:nth-of-type(3n){
+    background-color: #9CBFA7;
+}
+/*Transform rotate*/
+#one{
+    transform: rotate(40deg);
+}
+#two{
+    /* transform:scale(0.5); */
+    /* transform: scale(0.5,2); */
+    transform:scaleX(1.5);
+}
+#three{
+    transform: translateX(100px);
+}
+#four{
+    transform: skew(-30deg);
+    /* transform:skew(-90deg) here element will remove */
+}
+#five{
+    transform: rotate(30deg) translateX(100px) skew(-30deg);
+}

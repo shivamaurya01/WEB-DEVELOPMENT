@@ -1,0 +1,10 @@
+/* .container-fluid{
+    background-color: yellow;
+} */
+
+.btn-light{
+    background-color: brown;
+}
+.btn-outline-info:hover{
+    background-color: pink;
+}

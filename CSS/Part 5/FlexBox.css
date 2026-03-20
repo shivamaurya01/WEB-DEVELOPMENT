@@ -1,0 +1,38 @@
+#container{
+    height:400px;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black;
+    /* Display Flex is used to contain the element in their flex it will not overflow the element from the flex box it get fit in it  */
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* justify-content: center; */
+   /* it create the space between the content
+    justify-content: space-around; /*It create the space around the all  the element */ 
+     /*justify-content: space-evenly; It create the equal space arounf all the element */
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    /* flex-wrap:wrap-reverse; */
+
+    /* Arrange all the element in the column wise */
+    /* flex-direction: column; */
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 150px;
+    width:200px;
+    color:white;
+    text-align: center;
+    font-size: 1.5;
+
+
+}
